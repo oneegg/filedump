@@ -1,6 +1,6 @@
 #!groovy
 node ('worker_node1') {
-   // always run with a new workspace
+   // always run with a new workspace koko
    step([$class: 'WsCleanup'])
    try {
       stage('Source') {
